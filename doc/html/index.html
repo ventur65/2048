@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>2048: 2048</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">2048
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Tipi enumerati (enum)</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Valori del tipo enumerato</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Definizioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">2048 </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
+Introduzione</h1>
+<p>Programma creato come progetto personale per l'esame di Programmazione II del Professor Bertogna del CdL Informatica Unimore. Esso si sviluppa in 4 moduli principali:</p><ul>
+<li><a class="el" href="2048_8cc.html" title="File contenente il main e funzioni di inizializzazione e di distruzione di allegro e delle sue compon...">2048.cc</a> : Contiene il <a class="el" href="2048_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="Funzione principale. ">main</a> e funzioni per l'inizializzazione e distruzione di allegro e delle sue componenti <a class="el" href="2048_8cc.html#a2858154e2009b0e6e616f313177762bc" title="Funzione di inizializzazione di allegro e delle sue componenti. ">init</a> e <a class="el" href="2048_8cc.html#a2677b1414d74af9beab994c8c00be552" title="Funzione che dealloca le componenti di allegro usate dal programma. ">distruggi</a>.</li>
+<li><a class="el" href="disegno_8cc.html" title="File contenente il modulo Disegno. ">disegno.cc</a> : Modulo sviluppato per tutto cio' che riguarda la resa grafica del gioco. Non contiene alcun tipo di logica di gioco.</li>
+<li><a class="el" href="gioco_8cc.html" title="File contenente il modulo Gioco. ">gioco.cc</a> : Modulo che raccoglie tutte le routine necessarie al gioco per funzionare, come ad esempio la gestione del movimento e delle somme <a class="el" href="gioco_8h.html#aa52c558fe02e35c4188e98f0d4737a8a" title="Funzione che fa gli spostamenti e le somme nelle varie direzioni. ">fai_somme</a>, funzioni di controllo di gameover e vittoria <a class="el" href="gioco_8h.html#ac1ef45ee70b3a58f6c8308a5501fb587" title="Funzione che controlla se si è giunti a GameOver. ">Controlla_GameOver</a> <a class="el" href="gioco_8h.html#a4976eca5f1cbfd3094ba58119a70e2ba" title="Funzione che controlla se si è giunti alla vittoria. ">controlla_vittoria</a> e l'inserimento nella mappa di gioco <a class="el" href="gioco_8h.html#a0828d7256291a8d6fe14069aea16d005" title="Funzione che inserisce un numero (2 o 4) nella mappa di gioco in una casella libera casuale...">inserisci_random</a>.</li>
+<li><a class="el" href="salva__carica_8cc.html" title="File contenente il modulo Salva/Carica. ">salva_carica.cc</a> : Modulo per le funzioni di caricamento e salvataggio da e su file di testo.</li>
+</ul>
+<p>Il gioco sfrutta una libreria esterna per la parte grafica <a href="http://liballeg.org/">Allegro5</a>.</p>
+<h1><a class="anchor" id="Regolamento"></a>
+Regolamento</h1>
+<h2><a class="anchor" id="Obiettivo"></a>
+Obiettivo</h2>
+<p>Obiettivo del gioco è raggiungere 2048 in una casella.</p>
+<h2><a class="anchor" id="Spostamenti"></a>
+Spostamenti</h2>
+<p>La Mappa di gioco consiste in una matrice 4x4 di caselle. Ogni casella può contenere un numero (multiplo di 2) oppure essere vuota. All'inizio la mappa avrà solamente 2 caselle occupate. L'utente, tramite uso delle frecce direzionali, deciderà come muovere le caselle. Le caselle occupate da un numero si muoveranno lungo la direzione specificata finchè non incontrano la fine della mappa oppure un numero diverso. Nell'eventualità, invece, che incontrino un numero uguale, si sostituisce al numero più all'esterno la somma dei numeri, al numero più interno una casella vuota. Esempio: Consideriamo una riga di matrice fatta in questo modo: 2 4 X 4 dove la X è una casella vuota. Supponiamo che l'utente prema la freccia destra: il 4, che nella situazione iniziale era in seconda posizione nella riga, avendo alla sua destra una casella vuota scorre fino al 4 più esterno (quello in quarta posizione nella riga). Essendo ora il valore delle caselle vicine uguali, esse si sommano formando una casella di valore 8 che prende il posto del 4 più a destra. Ora il 2 scorre fin alla terza posizione nella riga: non può più proseguire in quanto la quarta è occupata dal valore 8 (!=2). Dopo lo spostamento a dx la riga avrà quindi questa forma: X X 2 8. In seguito ad ogni spostamento, infine, verranno scelte al più due caselle vuote (se ci sono) a caso per l'inserimento di un 2 o un 4 (anche questo a random).</p>
+<h2><a class="anchor" id="GameOver"></a>
+GameOver</h2>
+<p>Il GameOver si raggiunge se non ci sono movimenti disponibili nelle 4 direzioni, cioè se non esistono caselle vuote e se nessuna casella ne ha una adiacente con lo stesso valore. </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mar 13 Set 2016 15:27:37 per 2048 da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

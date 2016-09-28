@@ -1,0 +1,4 @@
+2048.o: 2048.cc strutt_dati.h gioco.h salva_carica.h disegno.h
+disegno.o: disegno.cc strutt_dati.h disegno.h
+gioco.o: gioco.cc strutt_dati.h gioco.h
+salva_carica.o: salva_carica.cc strutt_dati.h salva_carica.h

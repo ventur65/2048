@@ -1,0 +1,6 @@
+<map id="src/strutt_dati.h" name="src/strutt_dati.h">
+<area shape="rect" id="node2" href="$2048_8cc.html" title="File contenente il main e funzioni di inizializzazione e di distruzione di allegro e delle sue compon..." alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node3" href="$disegno_8cc.html" title="File contenente il modulo Disegno. " alt="" coords="120,80,227,107"/>
+<area shape="rect" id="node4" href="$gioco_8cc.html" title="File contenente il modulo Gioco. " alt="" coords="251,80,344,107"/>
+<area shape="rect" id="node5" href="$salva__carica_8cc.html" title="File contenente il modulo Salva/Carica. " alt="" coords="369,80,503,107"/>
+</map>
